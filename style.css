@@ -16,6 +16,8 @@ body {
   border-radius: 5px;
   overflow: hidden;
   max-width: 500px;
+  -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 .main-info-card {
@@ -143,6 +145,7 @@ body {
     display: grid;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
   }
   .main-info-card {
     -ms-grid-column: 1;
